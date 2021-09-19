@@ -360,4 +360,21 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# rotary_encoder-New_Library
+#
+DEF rotary_encoder-New_Library U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "rotary_encoder-New_Library" 0 0 50 H V C CNN
+F2 "encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 -50 100 -300 0 1 0 N
+X A 1 -100 -100 100 L 50 50 1 1 B
+X C 2 100 -150 100 R 50 50 1 1 B
+X B 3 -100 -200 100 L 50 50 1 1 B
+X S1 4 -50 -300 100 D 50 50 1 1 B
+X S2 5 50 -300 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 #End Library
