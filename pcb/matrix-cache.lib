@@ -1,0 +1,136 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# New_Library_rotary_encoder
+#
+DEF New_Library_rotary_encoder U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "New_Library_rotary_encoder" 0 0 50 H V C CNN
+F2 "encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 -50 100 -300 0 1 0 N
+X A 1 -100 -100 100 L 50 50 1 1 B
+X C 2 100 -150 100 R 50 50 1 1 B
+X B 3 -100 -200 100 L 50 50 1 1 B
+X S1 4 -50 -300 100 D 50 50 1 1 B
+X S2 5 50 -300 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# adelheid-rescue_D-Device
+#
+DEF adelheid-rescue_D-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "adelheid-rescue_D-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# adelheid-rescue_GND-power
+#
+DEF adelheid-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "adelheid-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# adelheid-rescue_LED-Device
+#
+DEF adelheid-rescue_LED-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "adelheid-rescue_LED-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# adelheid-rescue_R-Device
+#
+DEF adelheid-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "adelheid-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# adelheid-rescue_VCC-power
+#
+DEF adelheid-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "adelheid-rescue_VCC-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ai03-schematic_library_MX-LED
+#
+DEF ai03-schematic_library_MX-LED MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "ai03-schematic_library_MX-LED" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+C 0 0 14 0 0 5 N
+T 0 225 50 30 0 0 0 COL Normal 0 C C
+T 0 175 0 30 0 0 0 LED Normal 0 C C
+T 900 -50 -175 30 0 0 0 ROW Normal 0 R C
+T 900 0 -125 30 0 1 0 LEDGND Normal 0 R C
+S -100 100 50 -50 0 0 0 N
+P 2 0 0 5 -50 -50 -50 50 N
+P 2 0 0 5 0 -50 0 -25 N
+P 2 0 0 5 50 0 25 0 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
+X LED 3 100 0 50 L 0 0 1 1 I
+X LEDGND 4 0 -100 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

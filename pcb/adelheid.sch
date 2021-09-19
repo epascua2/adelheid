@@ -25,7 +25,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J1
+L adelheid-rescue:USB_B_Micro-Connector J1
 U 1 1 5C4B21E5
 P 1000 4800
 F 0 "J1" H 1055 5267 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 2100 6000 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L adelheid-rescue:R-Device R1
 U 1 1 5C4B245D
 P 2950 4800
 F 0 "R1" V 2850 4800 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "~" H 2950 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L adelheid-rescue:R-Device R2
 U 1 1 5C4B25B0
 P 2950 4900
 F 0 "R2" V 3050 4900 50  0000 C CNN
@@ -71,7 +71,7 @@ $EndComp
 Wire Wire Line
 	1300 4600 1900 4600
 $Comp
-L power:VCC #PWR0101
+L adelheid-rescue:VCC-power #PWR0101
 U 1 1 5C4B2712
 P 2900 4600
 F 0 "#PWR0101" H 2900 4450 50  0001 C CNN
@@ -109,7 +109,7 @@ Wire Wire Line
 	2450 5550 2450 4900
 Connection ~ 2450 4900
 $Comp
-L power:GND #PWR0102
+L adelheid-rescue:GND-power #PWR0102
 U 1 1 5C4B3104
 P 1000 5300
 F 0 "#PWR0102" H 1000 5050 50  0001 C CNN
@@ -129,7 +129,7 @@ Wire Wire Line
 	1000 5200 1000 5250
 Connection ~ 1000 5250
 $Comp
-L power:GND #PWR0103
+L adelheid-rescue:GND-power #PWR0103
 U 1 1 5C4B33A3
 P 1900 6150
 F 0 "#PWR0103" H 1900 5900 50  0001 C CNN
@@ -140,7 +140,7 @@ F 3 "" H 1900 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L adelheid-rescue:C-Device C4
 U 1 1 5C4B33F7
 P 3650 4200
 F 0 "C4" H 3765 4246 50  0000 L CNN
@@ -153,7 +153,7 @@ $EndComp
 Wire Wire Line
 	3650 4050 3900 4050
 $Comp
-L power:GND #PWR0104
+L adelheid-rescue:GND-power #PWR0104
 U 1 1 5C4B3645
 P 3650 4350
 F 0 "#PWR0104" H 3650 4100 50  0001 C CNN
@@ -168,7 +168,7 @@ D+
 Text GLabel 3900 3850 0    50   Input ~ 0
 D-
 $Comp
-L Device:Crystal_GND24 Y1
+L adelheid-rescue:Crystal_GND24-Device Y1
 U 1 1 5C4BFA85
 P 1900 3650
 F 0 "Y1" H 1850 4000 50  0000 L CNN
@@ -179,7 +179,7 @@ F 3 "~" H 1900 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L adelheid-rescue:C-Device C1
 U 1 1 5C4BFB4D
 P 1550 3800
 F 0 "C1" H 1436 3754 50  0000 R CNN
@@ -190,7 +190,7 @@ F 3 "~" H 1550 3800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C2
+L adelheid-rescue:C-Device C2
 U 1 1 5C4BFC59
 P 2250 3800
 F 0 "C2" H 2365 3846 50  0000 L CNN
@@ -201,7 +201,7 @@ F 3 "~" H 2250 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L adelheid-rescue:GND-power #PWR0105
 U 1 1 5C4BFE3E
 P 1900 4050
 F 0 "#PWR0105" H 1900 3800 50  0001 C CNN
@@ -248,7 +248,7 @@ XTAL2
 Text GLabel 3900 2950 0    50   Input ~ 0
 XTAL1
 $Comp
-L power:VCC #PWR0106
+L adelheid-rescue:VCC-power #PWR0106
 U 1 1 5C4C2958
 P 3250 3500
 F 0 "#PWR0106" H 3250 3350 50  0001 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 3250 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L adelheid-rescue:C-Device C3
 U 1 1 5C4C2975
 P 3250 4200
 F 0 "C3" H 3365 4246 50  0000 L CNN
@@ -277,7 +277,7 @@ Wire Wire Line
 	3250 3550 3250 4050
 Connection ~ 3250 3550
 $Comp
-L power:GND #PWR0107
+L adelheid-rescue:GND-power #PWR0107
 U 1 1 5C4C63A2
 P 3250 4350
 F 0 "#PWR0107" H 3250 4100 50  0001 C CNN
@@ -288,7 +288,7 @@ F 3 "" H 3250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SWR1
+L adelheid-rescue:SW_Push-Switch SWR1
 U 1 1 5C4CA743
 P 3400 2750
 F 0 "SWR1" H 3400 3035 50  0000 C CNN
@@ -303,7 +303,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2750 3150 2800
 $Comp
-L power:GND #PWR0108
+L adelheid-rescue:GND-power #PWR0108
 U 1 1 5C4CB162
 P 3150 2800
 F 0 "#PWR0108" H 3150 2550 50  0001 C CNN
@@ -314,7 +314,7 @@ F 3 "" H 3150 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L adelheid-rescue:R-Device R3
 U 1 1 5C4CB1B6
 P 3800 2550
 F 0 "R3" H 3870 2596 50  0000 L CNN
@@ -330,7 +330,7 @@ Connection ~ 3800 2750
 Wire Wire Line
 	3800 2750 3900 2750
 $Comp
-L power:VCC #PWR0109
+L adelheid-rescue:VCC-power #PWR0109
 U 1 1 5C4CC271
 P 3800 2400
 F 0 "#PWR0109" H 3800 2250 50  0001 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 3800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0110
+L adelheid-rescue:VCC-power #PWR0110
 U 1 1 5C4CED7A
 P 4400 950
 F 0 "#PWR0110" H 4400 800 50  0001 C CNN
@@ -361,7 +361,7 @@ Wire Wire Line
 	4400 950  4400 1000
 Connection ~ 4400 1000
 $Comp
-L power:GND #PWR0111
+L adelheid-rescue:GND-power #PWR0111
 U 1 1 5C4D2AB6
 P 5700 2400
 F 0 "#PWR0111" H 5700 2150 50  0001 C CNN
@@ -372,7 +372,7 @@ F 3 "" H 5700 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L adelheid-rescue:GND-power #PWR0112
 U 1 1 5C4D2B35
 P 5700 1850
 F 0 "#PWR0112" H 5700 1600 50  0001 C CNN
@@ -383,7 +383,7 @@ F 3 "" H 5700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L adelheid-rescue:GND-power #PWR0113
 U 1 1 5C4CED24
 P 5250 1300
 F 0 "#PWR0113" H 5250 1050 50  0001 C CNN
@@ -394,7 +394,7 @@ F 3 "" H 5250 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L adelheid-rescue:C-Device C5
 U 1 1 5C4D647D
 P 5250 1150
 F 0 "C5" H 5365 1196 50  0000 L CNN
@@ -405,7 +405,7 @@ F 3 "~" H 5250 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L adelheid-rescue:C-Device C6
 U 1 1 5C4D6747
 P 5250 1700
 F 0 "C6" H 5365 1746 50  0000 L CNN
@@ -416,7 +416,7 @@ F 3 "~" H 5250 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L adelheid-rescue:GND-power #PWR0114
 U 1 1 5C4D79EA
 P 5250 1850
 F 0 "#PWR0114" H 5250 1600 50  0001 C CNN
@@ -429,7 +429,7 @@ $EndComp
 Wire Wire Line
 	4400 1000 4400 2450
 $Comp
-L Device:C C8
+L adelheid-rescue:C-Device C8
 U 1 1 5C4DA48C
 P 5700 1700
 F 0 "C8" H 5815 1746 50  0000 L CNN
@@ -440,7 +440,7 @@ F 3 "~" H 5700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L adelheid-rescue:C-Device C7
 U 1 1 5C4DEE57
 P 5250 2250
 F 0 "C7" H 5365 2296 50  0000 L CNN
@@ -451,7 +451,7 @@ F 3 "~" H 5250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L adelheid-rescue:GND-power #PWR0115
 U 1 1 5C4DEE9D
 P 5250 2400
 F 0 "#PWR0115" H 5250 2150 50  0001 C CNN
@@ -462,7 +462,7 @@ F 3 "" H 5250 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L adelheid-rescue:C-Device C9
 U 1 1 5C4DEEC8
 P 5700 2250
 F 0 "C9" H 5815 2296 50  0000 L CNN
@@ -483,7 +483,7 @@ Wire Wire Line
 Connection ~ 5250 1550
 Connection ~ 5250 2100
 $Comp
-L power:GND #PWR0116
+L adelheid-rescue:GND-power #PWR0116
 U 1 1 5C4F0424
 P 4500 6150
 F 0 "#PWR0116" H 4500 5900 50  0001 C CNN
@@ -503,7 +503,7 @@ Wire Wire Line
 	4500 6050 4500 6100
 Connection ~ 4500 6100
 $Comp
-L power:VCC #PWR0117
+L adelheid-rescue:VCC-power #PWR0117
 U 1 1 5C4F181F
 P 4500 1500
 F 0 "#PWR0117" H 4500 1350 50  0001 C CNN
@@ -517,7 +517,7 @@ Wire Wire Line
 	4500 1500 4500 1550
 Connection ~ 4500 1550
 $Comp
-L power:VCC #PWR0118
+L adelheid-rescue:VCC-power #PWR0118
 U 1 1 5C4F216F
 P 4600 2050
 F 0 "#PWR0118" H 4600 1900 50  0001 C CNN
@@ -531,59 +531,57 @@ Wire Wire Line
 	4600 2050 4600 2100
 Connection ~ 4600 2100
 Wire Bus Line
-	6750 5800 7050 5800
+	6800 5800 7050 5800
 Entry Wire Line
-	6650 2850 6750 2950
+	6700 2850 6800 2950
 Entry Wire Line
-	6650 3050 6750 3150
+	6700 3050 6800 3150
 Entry Wire Line
-	6650 3150 6750 3250
+	6700 3150 6800 3250
 Entry Wire Line
-	6650 3250 6750 3350
+	6700 3250 6800 3350
 Entry Wire Line
-	6650 3350 6750 3450
+	6700 3350 6800 3450
 Entry Wire Line
-	6650 3450 6750 3550
+	6700 3450 6800 3550
 Wire Wire Line
-	5100 4150 6650 4150
+	5100 4150 6700 4150
 Wire Wire Line
-	5100 4250 6650 4250
+	5100 4250 6700 4250
 Wire Wire Line
-	5100 4350 6650 4350
+	5100 4350 6700 4350
 Wire Wire Line
-	5100 4450 6650 4450
+	5100 4450 6700 4450
 Wire Wire Line
-	5100 4550 6650 4550
+	5100 4550 6700 4550
 Wire Wire Line
-	5100 4650 6650 4650
+	5100 4650 6700 4650
 Entry Wire Line
-	6650 3650 6750 3750
+	6700 3650 6800 3750
 Entry Wire Line
-	6650 3750 6750 3850
+	6700 3750 6800 3850
 Entry Wire Line
-	6650 3950 6750 4050
+	6700 3950 6800 4050
 Entry Wire Line
-	6650 4050 6750 4150
+	6700 4050 6800 4150
 Entry Wire Line
-	6650 4150 6750 4250
+	6700 4150 6800 4250
 Entry Wire Line
-	6650 4250 6750 4350
+	6700 4250 6800 4350
 Entry Wire Line
-	6650 4350 6750 4450
+	6700 4350 6800 4450
 Entry Wire Line
-	6650 4450 6750 4550
+	6700 4450 6800 4550
 Entry Wire Line
-	6650 4550 6750 4650
+	6700 4550 6800 4650
 Entry Wire Line
-	6650 4650 6750 4750
+	6700 4650 6800 4750
 Entry Wire Line
-	6650 2750 6750 2850
+	6700 2750 6800 2850
 Entry Wire Line
-	6650 4950 6750 5050
+	6700 5150 6800 5250
 Entry Wire Line
-	6650 5150 6750 5250
-Entry Wire Line
-	6650 5250 6750 5350
+	6700 5250 6800 5350
 Text Label 6450 3950 0    50   ~ 0
 row0
 Text Label 6450 4050 0    50   ~ 0
@@ -624,10 +622,8 @@ Text Label 6400 4550 0    50   ~ 0
 col13
 Text Label 6400 3050 0    50   ~ 0
 col14
-Wire Wire Line
-	5100 5450 5400 5450
 $Comp
-L Device:R R4
+L adelheid-rescue:R-Device R4
 U 1 1 5C4E7AD8
 P 5700 5900
 F 0 "R4" H 5770 5946 50  0000 L CNN
@@ -638,7 +634,7 @@ F 3 "~" H 5700 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L adelheid-rescue:GND-power #PWR0119
 U 1 1 5C4E7CB4
 P 5700 6100
 F 0 "#PWR0119" H 5700 5850 50  0001 C CNN
@@ -734,28 +730,6 @@ Wire Wire Line
 	7150 3600 7500 3600
 Wire Wire Line
 	7150 3500 7500 3500
-$Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5C895E5D
-P 6100 6600
-F 0 "J8" H 6179 6642 50  0000 L CNN
-F 1 "PF4" H 6179 6551 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6100 6600 50  0001 C CNN
-F 3 "~" H 6100 6600 50  0001 C CNN
-	1    6100 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J9
-U 1 1 5C895ED7
-P 6100 6800
-F 0 "J9" H 6179 6842 50  0000 L CNN
-F 1 "PF5" H 6179 6751 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6100 6800 50  0001 C CNN
-F 3 "~" H 6100 6800 50  0001 C CNN
-	1    6100 6800
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	5750 2700 6100 2700
 Wire Bus Line
@@ -773,9 +747,9 @@ Entry Wire Line
 Entry Wire Line
 	5650 3050 5750 3150
 Wire Wire Line
-	5850 3050 6650 3050
+	5850 3050 6700 3050
 Wire Wire Line
-	5850 2850 6650 2850
+	5850 2850 6700 2850
 Wire Wire Line
 	5650 2850 5100 2850
 Wire Wire Line
@@ -793,7 +767,7 @@ SCK
 Text Label 5900 3050 0    50   ~ 0
 MISO
 Wire Wire Line
-	6650 3150 6200 3150
+	6700 3150 6200 3150
 Wire Wire Line
 	6200 3150 6200 3200
 Wire Wire Line
@@ -801,7 +775,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3200 6200 3200
 $Comp
-L Connector_Generic:Conn_01x01 J2
+L adelheid-rescue:Conn_01x01-Connector_Generic J2
 U 1 1 5C90B624
 P 2900 900
 F 0 "J2" H 3050 850 50  0000 C CNN
@@ -812,7 +786,7 @@ F 3 "~" H 2900 900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L adelheid-rescue:Conn_01x01-Connector_Generic J3
 U 1 1 5C90B878
 P 2900 1100
 F 0 "J3" H 3050 1050 50  0000 C CNN
@@ -823,7 +797,7 @@ F 3 "~" H 2900 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J4
+L adelheid-rescue:Conn_01x01-Connector_Generic J4
 U 1 1 5C90BFC6
 P 2900 1300
 F 0 "J4" H 3050 1250 50  0000 C CNN
@@ -834,7 +808,7 @@ F 3 "~" H 2900 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J5
+L adelheid-rescue:Conn_01x01-Connector_Generic J5
 U 1 1 5C90C00A
 P 2900 1500
 F 0 "J5" H 3050 1450 50  0000 C CNN
@@ -845,7 +819,7 @@ F 3 "~" H 2900 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
+L adelheid-rescue:Conn_01x01-Connector_Generic J6
 U 1 1 5C90C19E
 P 2900 1700
 F 0 "J6" H 3050 1650 50  0000 C CNN
@@ -856,7 +830,7 @@ F 3 "~" H 2900 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J7
+L adelheid-rescue:Conn_01x01-Connector_Generic J7
 U 1 1 5C90C1E8
 P 2900 1900
 F 0 "J7" H 3050 1850 50  0000 C CNN
@@ -894,7 +868,7 @@ Wire Wire Line
 Text Label 3250 1700 0    50   ~ 0
 ~RES~
 $Comp
-L power:GND #PWR0120
+L adelheid-rescue:GND-power #PWR0120
 U 1 1 5C946886
 P 3700 1950
 F 0 "#PWR0120" H 3700 1700 50  0001 C CNN
@@ -905,7 +879,7 @@ F 3 "" H 3700 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0121
+L adelheid-rescue:VCC-power #PWR0121
 U 1 1 5C9469B4
 P 3700 1050
 F 0 "#PWR0121" H 3700 900 50  0001 C CNN
@@ -923,31 +897,27 @@ Wire Wire Line
 	3100 1900 3700 1900
 Wire Wire Line
 	3700 1900 3700 1950
-Text Label 5650 6600 0    50   ~ 0
-PF4
-Text Label 5650 6800 0    50   ~ 0
-PF5
 NoConn ~ 3900 3350
 Wire Wire Line
-	5100 2750 6650 2750
+	5100 2750 6700 2750
 Wire Wire Line
-	5100 3250 6650 3250
+	5100 3250 6700 3250
 Wire Wire Line
-	5100 3350 6650 3350
+	5100 3350 6700 3350
 Wire Wire Line
-	5100 3450 6650 3450
+	5100 3450 6700 3450
 Wire Wire Line
-	5100 3750 6650 3750
+	5100 3750 6700 3750
 Wire Wire Line
-	5100 3950 6650 3950
+	5100 3950 6700 3950
 Wire Wire Line
-	5100 4050 6650 4050
+	5100 4050 6700 4050
 Wire Wire Line
-	5100 4950 6650 4950
+	5100 4950 6700 4950
 Wire Wire Line
-	5100 5150 6650 5150
+	5100 5150 6700 5150
 Wire Wire Line
-	5100 5250 6650 5250
+	5100 5250 6700 5250
 Text Label 7200 3500 0    50   ~ 0
 col0
 Text Label 7200 3600 0    50   ~ 0
@@ -994,7 +964,7 @@ NoConn ~ 1300 5000
 NoConn ~ 1400 5750
 NoConn ~ 2400 5750
 $Comp
-L Connector_Generic:Conn_01x01 J13
+L adelheid-rescue:Conn_01x01-Connector_Generic J13
 U 1 1 5C4E1CA1
 P 3000 5350
 F 0 "J13" H 3079 5392 50  0000 L CNN
@@ -1009,7 +979,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 4900 2650 4900
 $Comp
-L Connector_Generic:Conn_01x01 J14
+L adelheid-rescue:Conn_01x01-Connector_Generic J14
 U 1 1 5C4F0ABE
 P 3000 5500
 F 0 "J14" H 3079 5542 50  0000 L CNN
@@ -1020,7 +990,7 @@ F 3 "~" H 3000 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J12
+L adelheid-rescue:Conn_01x01-Connector_Generic J12
 U 1 1 5C505CBA
 P 3000 5200
 F 0 "J12" H 3079 5242 50  0000 L CNN
@@ -1031,7 +1001,7 @@ F 3 "~" H 3000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J15
+L adelheid-rescue:Conn_01x01-Connector_Generic J15
 U 1 1 5C505D0A
 P 3000 5650
 F 0 "J15" H 3079 5692 50  0000 L CNN
@@ -1067,7 +1037,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 5650 2750 5700
 $Comp
-L power:GND #PWR01
+L adelheid-rescue:GND-power #PWR01
 U 1 1 5C51C1AD
 P 2750 5700
 F 0 "#PWR01" H 2750 5450 50  0001 C CNN
@@ -1078,7 +1048,7 @@ F 3 "" H 2750 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L adelheid-rescue:MountingHole-Mechanical H1
 U 1 1 5C583EFC
 P 8700 2700
 F 0 "H1" H 8800 2746 50  0000 L CNN
@@ -1089,7 +1059,7 @@ F 3 "~" H 8700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L adelheid-rescue:MountingHole-Mechanical H2
 U 1 1 5C584371
 P 8700 2900
 F 0 "H2" H 8800 2946 50  0000 L CNN
@@ -1100,7 +1070,7 @@ F 3 "~" H 8700 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L adelheid-rescue:MountingHole-Mechanical H3
 U 1 1 5C59C18D
 P 8700 3100
 F 0 "H3" H 8800 3146 50  0000 L CNN
@@ -1111,7 +1081,7 @@ F 3 "~" H 8700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L adelheid-rescue:MountingHole-Mechanical H4
 U 1 1 5C59C1E9
 P 8700 3300
 F 0 "H4" H 8800 3346 50  0000 L CNN
@@ -1122,7 +1092,7 @@ F 3 "~" H 8700 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L adelheid-rescue:MountingHole-Mechanical H5
 U 1 1 5C59C249
 P 8700 3500
 F 0 "H5" H 8800 3546 50  0000 L CNN
@@ -1133,7 +1103,7 @@ F 3 "~" H 8700 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L adelheid-rescue:MountingHole-Mechanical H6
 U 1 1 5C59C2A7
 P 8700 3700
 F 0 "H6" H 8800 3746 50  0000 L CNN
@@ -1144,7 +1114,7 @@ F 3 "~" H 8700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H7
+L adelheid-rescue:MountingHole-Mechanical H7
 U 1 1 5C59C305
 P 8700 3900
 F 0 "H7" H 8800 3946 50  0000 L CNN
@@ -1155,7 +1125,7 @@ F 3 "~" H 8700 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H8
+L adelheid-rescue:MountingHole-Mechanical H8
 U 1 1 5C59C367
 P 8700 4100
 F 0 "H8" H 8800 4146 50  0000 L CNN
@@ -1168,7 +1138,7 @@ $EndComp
 Entry Wire Line
 	7050 3400 7150 3300
 $Sheet
-S 7500 2650 800  2600
+S 7500 2650 750  3000
 U 5C4EF302
 F0 "matrix" 50
 F1 "matrix.sch" 50
@@ -1196,7 +1166,7 @@ F22 "row5" B L 7500 3300 50
 F23 "ledGND" B L 7500 5100 50 
 $EndSheet
 $Comp
-L Transistor_FET:2N7002 Q1
+L adelheid-rescue:2N7002-Transistor_FET Q1
 U 1 1 5EC38ADB
 P 6350 5950
 F 0 "Q1" H 6555 5995 50  0000 L CNN
@@ -1210,28 +1180,24 @@ Wire Wire Line
 	7150 3300 7500 3300
 Text Label 7200 3300 0    50   ~ 0
 row5
-Entry Wire Line
-	7050 5200 7150 5100
 Wire Wire Line
 	7150 5100 7500 5100
 Text Label 7200 5100 0    50   ~ 0
 ledGND
 Entry Wire Line
-	6750 5750 6650 5650
-Entry Wire Line
-	6750 5450 6650 5350
+	6800 5750 6700 5650
 Wire Wire Line
-	6200 5350 6650 5350
+	6200 5350 6700 5350
 Text Label 6450 5650 0    50   ~ 0
 ledGND
 Text Label 6450 5350 0    50   ~ 0
 row5
 Wire Wire Line
-	6450 5650 6650 5650
+	6450 5650 6700 5650
 Wire Wire Line
 	6450 5650 6450 5750
 $Comp
-L power:GND #PWR0122
+L adelheid-rescue:GND-power #PWR0122
 U 1 1 5EC30AAD
 P 6450 6250
 F 0 "#PWR0122" H 6450 6000 50  0001 C CNN
@@ -1243,18 +1209,8 @@ F 3 "" H 6450 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 6150 6450 6250
-Wire Wire Line
-	5400 6800 5400 5450
-Wire Wire Line
-	5400 6800 5900 6800
-Wire Wire Line
-	5450 5350 5450 6600
-Wire Wire Line
-	5100 5350 5450 5350
-Wire Wire Line
-	5450 6600 5900 6600
 $Comp
-L Device:R R5
+L adelheid-rescue:R-Device R5
 U 1 1 5EC25C97
 P 5600 3650
 F 0 "R5" V 5700 3600 50  0000 L CNN
@@ -1281,13 +1237,51 @@ Wire Wire Line
 Wire Wire Line
 	6150 5550 6150 3650
 Wire Wire Line
-	6150 3650 6650 3650
+	6150 3650 6700 3650
+Text HLabel 7500 5250 2    50   BiDi ~ 0
+PF4
+Text HLabel 7500 5350 2    50   BiDi ~ 0
+PF5
+Wire Wire Line
+	7150 5250 7500 5250
+Wire Wire Line
+	7150 5350 7500 5350
+Wire Wire Line
+	5600 5350 5600 5400
+Wire Wire Line
+	5600 5400 6650 5400
+Wire Wire Line
+	6650 5400 6700 5450
+Wire Wire Line
+	5100 5350 5600 5350
+Wire Wire Line
+	6600 5450 6700 5550
+Wire Wire Line
+	5100 5450 6600 5450
+Text Notes 6500 5400 0    39   ~ 0
+PF4
+Text Notes 6500 5450 0    39   ~ 0
+PF5\n
 Wire Bus Line
 	5750 2700 5750 3150
 Wire Bus Line
 	3550 700  3550 2100
 Wire Bus Line
-	6750 2750 6750 5800
+	6800 2750 6800 5800
 Wire Bus Line
 	7050 2650 7050 5800
+Entry Wire Line
+	7050 5200 7150 5100
+Entry Wire Line
+	6700 4950 6800 5050
+Entry Wire Line
+	6800 5450 6700 5350
+Entry Wire Line
+	6800 5550 6700 5450
+Entry Wire Line
+	6800 5650 6700 5550
+Entry Wire Line
+	7050 5450 7150 5350
+Entry Wire Line
+	7050 5350 7150 5250
 $EndSCHEMATC
